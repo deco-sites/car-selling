@@ -2,7 +2,6 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 interface Props {
-  href?: string;
   image?: ImageWidget;
   alt?: string;
   width?: number;
@@ -10,22 +9,10 @@ interface Props {
   text?: string;
 }
 
-function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
-}: Props) {
+function Footer({ image, text, alt, height = 64, width = 64 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
+    <footer class="bg-primary text-primary-content w-full mt-[100px]">
+      <div class="w-full mx-auto px-4 max-w-[1140px] flex justify-between items-center py-5">
         {text && <p>{text}</p>}
         {image && (
           <Image
@@ -35,8 +22,8 @@ function Footer({
             width={width || 50}
           />
         )}
-      </a>
-    </div>
+      </div>
+    </footer>
   );
 }
 

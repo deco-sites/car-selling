@@ -3,9 +3,154 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12381/b867dd6e-e585-42f9-be4e-d7c489e31976",
+        "alt": "Garagecar Veículos",
+        "width": 116,
+        "height": 116
+      },
+      "navItems": [
+        {
+          "label": "Depoimentos",
+          "href": "#depoimentos"
+        },
+        {
+          "label": "Perguntas Frequentes",
+          "href": "#faq"
+        },
+        {
+          "label": "Unidades",
+          "href": "#unidades"
+        }
+      ],
+      "cta": {
+        "href": "#contato",
+        "text": "Solicite uma cotação"
+      }
+    },
+    {
+      "__resolveType": "site/sections/HeroLeadCapture.tsx",
+      "title": "O melhor lugar para vender o seu carro",
+      "description": "Somos uma empresa que compra seu carro em até 24 horas. O pagamento é sempre à vista!",
+      "airtable": {
+        "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e",
+        "baseId": "appmytr6iN5R2eXSb",
+        "tableId": "tblrEoGJE8eurMhF0"
+      },
+      "successMessage": "Sucesso! Nossa equipe entrará em contato."
+    },
+    {
+      "__resolveType": "site/sections/Steps.tsx",
+      "title": "Quer vender o seu carro?",
+      "description": "Aqui o processo é prático, transparente e seguro! A compra acontece em poucos passos:",
+      "steps": [
+        {
+          "label": "Whatsapp",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/dd23dc15-7cdd-481f-9641-43e1189c1dba/icone-2.png",
+          "text": "Faça uma avaliação prévia pelo WhatsApp"
+        },
+        {
+          "label": "Avaliação Técnica",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/76595e21-f3c2-4bdf-8994-b93047a5ac5a/icone-1.png",
+          "text": "Agende uma avaliação técnica em nossa loja ou no seu endereço"
+        },
+        {
+          "label": "Formalização",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/a7aadb3e-63ed-473f-ac41-def75e71e5c3/icone-3.png",
+          "text": "Realize a formalização dos documentos em cartório"
+        },
+        {
+          "label": "Pagamento",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/bdd73cd4-cf28-4ab3-b145-ff8e3ccd6eb9/icone-4.png",
+          "text": "Receba o pagamento de forma segura em sua conta"
+        }
+      ],
+      "cta": {
+        "href": "#contato",
+        "text": "CONTATE-NOS AGORA"
+      }
+    },
+    {
+      "__resolveType": "site/sections/OurDifferences.tsx",
+      "title": "Nossos diferenciais",
+      "cards": [
+        {
+          "label": "Avaliação com preço justo",
+          "text": "Nossas ofertas variam de acordo com o mercado, a consulta de interessados e as características do veículo, tais como: ano, modelo, quilometragem, equipamentos, estado de conservação, entre outros itens analisados na avaliação."
+        },
+        {
+          "label": "Processo sem burocracia",
+          "text": "Cuidamos de todos os detalhes para você. Nossa equipe fica responsável por: transferência de propriedade, comunicação de venda, documento de ATPVE, etc."
+        },
+        {
+          "label": "Nós vamos até você",
+          "text": "A avaliação do veículo normalmente é realizada em nossa loja. Mas se você está sem tempo, nós vamos até você para realizar a avaliação técnica no seu veículo, seguindo todos os protocolos de segurança durante a pandemia."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/FAQ.tsx",
+      "title": "Ainda tem dúvidas?",
+      "questions": [
+        {
+          "content": "Sim, fazemos uma avaliação prévia do seu veículo e, na sequência, combinamos se a avaliação presencial acontecerá em nossa loja ou no seu endereço (dentro da região metropolitana).",
+          "label": "Não estou em Porto Alegre, posso vender para a GarageCar?"
+        },
+        {
+          "label": "Posso vender qualquer tipo de carro?",
+          "content": "Compramos diversos tipos de carros, desde populares até modelos premium, a partir de 2010, com até 100.000km rodados e, no mínimo: ar condicionado e direção hidráulica. Todos os veículos passam por nossa criteriosa avaliação. Pequenas avarias que podem ser consertadas não nos impedem de fazer negócio. Você pode verificar se o seu carro atende aos nossos requisitos preenchendo o formulário na página vender do site ou entrando em contato pelo WhatsApp."
+        },
+        {
+          "label": "Como a GarageCar define o valor ofertado por um carro?",
+          "content": "Buscamos avaliar os carros de acordo com a sua demanda. Isso porque determinados modelos são mais requisitados por nossos compradores, enquanto outros têm menos procura no mercado, o que nos exige trabalhar com maiores margens de preço. Além disso, levamos em consideração a facilidade de manutenção do veículo, como troca de peças e realização de serviços mecânicos."
+        },
+        {
+          "label": "Como é feito o processo de inspeção do meu carro?",
+          "content": "Levamos em conta diversos detalhes do veículo, principalmente: funcionamento de motor e cambio, estado da lataria, nível de desgaste do estofamento e realizamos um teste de rodagem para avaliar o funcionamento do carro e a eventual necessidade de reparos mecânicos. É também na inspeção que averiguamos se o veículo passou por algum dano que possa ter afetado a sua estrutura, tornando o negócio inviável."
+        },
+        {
+          "label": "Quanto tempo leva para vender o meu carro na GarageCar?",
+          "content": "Nós oferecemos duas modalidades de venda: imediata, em que o pagamento é feito à vista, no  fechamento do negócio; e por consignação, em que o cliente aguarda a Garagecar efetuar a venda e, então, receber o valor acertado."
+        },
+        {
+          "label": "A GarageCar compra meu carro com financiamento?",
+          "content": "Sim, o valor de quitação deverá ser consultado junto à financeira. Ao fechar o negócio, o seu carro será quitado e o valor descontado do preço final da avaliação."
+        },
+        {
+          "label": "Existe algum tipo de cobrança ou taxas extras?",
+          "content": "Não há cobranças ou taxas extras. Porém, em casos de consignação, podem ser necessários alguns serviços que serão previamente acertados com nossos clientes."
+        },
+        {
+          "label": "Se a documentação do meu carro tiver alguma pendência, a GarageCar me ajuda a resolver?\"",
+          "content": "Sim, contamos com uma equipe capacitada para resolver pendências junto ao DETRAN ou a financeiras, sendo esses valores deduzidos no valor da compra do seu veículo. Pois regularizamos toda a documentação para a sua posterior venda."
+        },
+        {
+          "label": "Como a GarageCar procede se o meu carro apresentar alguma adulteração?",
+          "content": "Acreditamos na idoneidade dos nossos clientes, mas se notarmos alguma irregularidade técnica ou jurídica no seu veículo, nos sentimos na obrigação de colaborar com as autoridades."
+        },
+        {
+          "label": "Por que fechar negócio com a GarageCar?",
+          "content": "Somos uma empresa que atua há mais de 8 anos no mercado automotivo e é reconhecida por ser transparente, confiável e próxima dos seus clientes. Temos uma equipe completa para resolver tudo o que for necessario no fechamento do negócio."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Maps.tsx",
+      "title": "Venha nos visitar",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d863.7689639304136!2d-51.1900465!3d-30.0059782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951976fb4b58c411%3A0xa04c3e2274b0068b!2sGarageCar%20%7C%20Compra%20e%20Venda%20de%20Ve%C3%ADculos!5e0!3m2!1spt-BR!2sbr!4v1725263121156!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "sectionId": "unidades"
+    },
+    {
+      "__resolveType": "site/sections/LeadCapture.tsx",
+      "title": "Preencha seus dados para fazer uma cotação",
+      "airtable": {
+        "baseId": "appmytr6iN5R2eXSb",
+        "tableId": "tblenbGSKKQUhrocn",
+        "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e"
+      },
+      "successMessage": "Sucesso! Nossa equipe entrará em contato.",
+      "sectionId": "contato"
     },
     {
       "__resolveType": "Footer"
