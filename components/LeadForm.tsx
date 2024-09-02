@@ -3,12 +3,27 @@ import { JSX } from "preact/jsx-runtime";
 import { Airtable } from "site/types/airtable.ts";
 import { invoke } from "site/runtime.ts";
 
+interface Placeholders {
+  submitButtonText?: string;
+  nome: string;
+  email: string;
+  telefone: string;
+  marca: string;
+  modelo: string;
+  ano: string;
+}
+
 interface Props {
   airtable?: Airtable;
   successMessage?: string;
+  placeholders?: Placeholders;
 }
 
-export default function LeadForm({ airtable, successMessage }: Props) {
+export default function LeadForm({
+  airtable,
+  successMessage,
+  placeholders,
+}: Props) {
   const loading = useSignal(false);
   const success = useSignal(false);
 
@@ -21,19 +36,43 @@ export default function LeadForm({ airtable, successMessage }: Props) {
       const formData = new FormData(e.currentTarget);
       const name = formData.get("name") as string;
       const email = formData.get("email") as string;
-      const vehicle = formData.get("vehicle") as string;
+      const telefone = formData.get("telefone") as string;
+      const marca = formData.get("marca") as string;
+      const modelo = formData.get("modelo") as string;
+      const ano = formData.get("ano") as string;
 
       await invoke["site"].actions.createAirtableRecord({
         airtable,
         email,
         name,
-        vehicle,
+        telefone,
+        marca,
+        modelo,
+        ano,
       });
 
       success.value = true;
     } finally {
       loading.value = false;
     }
+  };
+
+  const handlePhoneInput = (e: JSX.TargetedInputEvent<HTMLInputElement>) => {
+    let value = e.currentTarget.value.replace(/\D/g, ""); // Remove all non-numeric characters
+
+    if (value.length > 11) {
+      value = value.substring(0, 11); // Limit to 11 digits
+    }
+
+    if (value.length > 6) {
+      value = value.replace(/^(\d{2})(\d{5})(\d{0,4}).*/, "($1) $2-$3");
+    } else if (value.length > 2) {
+      value = value.replace(/^(\d{2})(\d{0,5})/, "($1) $2");
+    } else if (value.length > 0) {
+      value = value.replace(/^(\d{0,2})/, "($1");
+    }
+
+    e.currentTarget.value = value;
   };
 
   if (success.value) {
@@ -64,30 +103,50 @@ export default function LeadForm({ airtable, successMessage }: Props) {
     <form onSubmit={handleSubmit} class="form-control justify-start gap-2">
       <input
         required
-        placeholder="Nome"
+        placeholder={placeholders?.nome}
         class="input input-bordered"
         name="name"
       />
       <input
-        placeholder="E-mail"
+        placeholder={placeholders?.email}
         type="email"
         class="input input-bordered"
         name="email"
         required
       />
       <input
-        placeholder="Veículo"
+        placeholder={placeholders?.telefone}
+        type="tel"
         class="input input-bordered"
-        name="vehicle"
+        name="telefone"
+        onInput={handlePhoneInput}
         required
       />
+
+      <div class="flex gap-2">
+        <input
+          placeholder={placeholders?.marca}
+          class="input input-bordered w-full text-sm"
+          name="marca"
+        />
+        <input
+          placeholder={placeholders?.modelo}
+          class="input input-bordered w-full text-sm"
+          name="modelo"
+        />
+        <input
+          placeholder={placeholders?.ano}
+          class="input input-bordered w-full text-sm"
+          name="ano"
+        />
+      </div>
 
       <button
         type="submit"
         disabled={loading.value}
         class="btn btn-primary no-animation"
       >
-        <span class="inline">Avançar</span>
+        <span class="inline">{placeholders?.submitButtonText}</span>
         {loading.value && <span class="loading loading-spinner loading-xs" />}
       </button>
     </form>

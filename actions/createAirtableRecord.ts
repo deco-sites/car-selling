@@ -4,7 +4,10 @@ import { Airtable } from "site/types/airtable.ts";
 export interface Props {
   name?: string;
   email?: string;
-  vehicle?: string;
+  telefone?: string;
+  marca?: string;
+  modelo?: string;
+  ano?: string;
   airtable?: Airtable;
 }
 
@@ -12,7 +15,10 @@ export const action = async (props: Props, _req: Request, ctx: AppContext) => {
   const fields = {
     Nome: props.name,
     Email: props.email,
-    Veiculo: props.vehicle,
+    Telefone: props.telefone,
+    Marca: props.marca,
+    Modelo: props.modelo,
+    Ano: props.ano,
   };
 
   const apiUrl = `https://api.airtable.com/v0/${props.airtable?.baseId}/${props.airtable?.tableId}`;

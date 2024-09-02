@@ -13,11 +13,15 @@ interface Logo {
 interface CTA {
   href?: string;
   text?: string;
+  /** @description Abrir o link em uma nova guia */
+  openInNewTab?: boolean;
 }
 
 interface NavItem {
   label?: string;
   href?: string;
+  /** @description Abrir o link em uma nova guia */
+  openInNewTab?: boolean;
 }
 
 interface Props {
@@ -54,7 +58,6 @@ function Header({ logo, navItems, cta }: Props) {
           <a
             href="/"
             class="flex flex-row gap-1 items-center justify-center text-xs"
-            target="_blank"
           >
             {logo && (
               <Image
@@ -73,6 +76,7 @@ function Header({ logo, navItems, cta }: Props) {
                   {navItems.map((item) => (
                     <a
                       href={item.href || ""}
+                      target={item.openInNewTab ? "_blank" : "_self"}
                       class="hover:text-primary transition-colors duration-300"
                     >
                       {item.label}
@@ -99,7 +103,11 @@ function Header({ logo, navItems, cta }: Props) {
                   >
                     {navItems.map((item) => (
                       <li>
-                        <a href={item.href || ""} class="hover:text-primary">
+                        <a
+                          target={item.openInNewTab ? "_blank" : "_self"}
+                          href={item.href || ""}
+                          class="hover:text-primary"
+                        >
                           {item.label}
                         </a>
                       </li>
@@ -112,6 +120,7 @@ function Header({ logo, navItems, cta }: Props) {
             {cta && (
               <a
                 href={cta.href || ""}
+                target={cta.openInNewTab ? "_blank" : "_self"}
                 class="hidden md:inline-flex btn btn-sm btn-primary h-10 text-base font-medium"
               >
                 {cta.text}

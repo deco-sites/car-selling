@@ -1,5 +1,22 @@
 import { Airtable } from "site/types/airtable.ts";
-import CompleteLeadForm from "site/islands/CompleteLeadForm.tsx";
+import LeadForm from "site/islands/LeadForm.tsx";
+
+export interface Placeholders {
+  /** @description Texto do botão de envio */
+  submitButtonText?: string;
+  /** @description Campo de nome */
+  nome: string;
+  /** @description Campo de email */
+  email: string;
+  /** @description Campo de telefone */
+  telefone: string;
+  /** @description Campo de marca */
+  marca: string;
+  /** @description Campo de modelo */
+  modelo: string;
+  /** @description Campo de ano */
+  ano: string;
+}
 
 export interface Props {
   /** @description ID da seção para links de ancoragem */
@@ -8,6 +25,7 @@ export interface Props {
   /** @description Dados do Airtable para integração do formulário */
   airtable?: Airtable;
   successMessage?: string;
+  placeholders?: Placeholders;
 }
 
 function LeadCapture({
@@ -15,6 +33,15 @@ function LeadCapture({
   title,
   airtable,
   successMessage = "Sucesso! Nossa equipe entrará em contato.",
+  placeholders = {
+    submitButtonText: "Avançar",
+    nome: "Nome",
+    email: "E-mail",
+    telefone: "Telefone",
+    marca: "Marca",
+    modelo: "Modelo",
+    ano: "Ano",
+  },
 }: Props) {
   return (
     <div
@@ -23,8 +50,12 @@ function LeadCapture({
     >
       <h2 class="text-3xl lg:text-5xl leading-tight text-center">{title}</h2>
 
-      <div class="mt-5 md:mt-10">
-        <CompleteLeadForm airtable={airtable} successMessage={successMessage} />
+      <div class="mt-5 md:mt-10 mx-auto">
+        <LeadForm
+          airtable={airtable}
+          successMessage={successMessage}
+          placeholders={placeholders}
+        />
       </div>
     </div>
   );
