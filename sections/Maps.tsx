@@ -27,7 +27,7 @@ function Maps({
 
       <div class="flex flex-col sm:flex-row gap-8 mt-5 md:mt-10">
         <div
-          class="flex justify-center items-center w-full md:w-1/2"
+          class="flex justify-center items-center w-full h-[300px] md:h-auto md:w-1/2"
           dangerouslySetInnerHTML={{ __html: map }}
         />
 

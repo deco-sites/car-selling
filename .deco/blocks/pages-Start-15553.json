@@ -50,7 +50,15 @@
         "modelo": "Modelo (Ex. Mobi)",
         "ano": "Ano/Modelo (Ex. 2021)"
       },
-      "maxBannerHeight": 400
+      "maxBannerHeight": 300,
+      "banners": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Steps.tsx",
