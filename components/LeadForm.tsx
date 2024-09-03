@@ -123,7 +123,7 @@ export default function LeadForm({
         required
       />
 
-      <div class="flex gap-2">
+      <div class="flex flex-col md:flex-row gap-2">
         <input
           placeholder={placeholders?.marca}
           class="input input-bordered w-full text-sm"

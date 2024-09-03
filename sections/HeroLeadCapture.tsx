@@ -1,7 +1,6 @@
 import { Airtable } from "site/types/airtable.ts";
 import LeadForm from "site/islands/LeadForm.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 import Slider from "site/components/ui/Slider.tsx";
 import { useId } from "site/sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
@@ -23,8 +22,15 @@ export interface Placeholders {
   ano: string;
 }
 
-export interface Banner {
+export interface BannerMedia {
   image?: ImageWidget;
+  /** @description Estilo de exibição da imagem */
+  objectFit?: "cover" | "contain" | "fill";
+}
+
+export interface Banner {
+  desktopImage?: BannerMedia;
+  mobileImage?: BannerMedia;
   href?: string;
   alt?: string;
   /** @description Abrir o link em uma nova guia */
@@ -44,8 +50,14 @@ export interface Props {
    * @description tempo (em segundos) para iniciar o autoplay do carrossel
    */
   interval?: number;
-  /** @description Altura máxima dos banners */
-  maxBannerHeight?: number;
+  /** @description Largura dos banners no desktop */
+  desktopBannersWidth?: number;
+  /** @description Altura dos banners no desktop */
+  desktopBannersHeight?: number;
+  /** @description Largura dos banners no mobile */
+  mobileBannersWidth?: number;
+  /** @description Altura dos banners no mobile */
+  mobileBannersHeight?: number;
   placeholders?: Placeholders;
 }
 
@@ -55,7 +67,10 @@ function HeroLeadCapture({
   airtable,
   successMessage = "Sucesso! Nossa equipe entrará em contato.",
   banners = [],
-  maxBannerHeight = 400,
+  desktopBannersWidth = 1440,
+  desktopBannersHeight = 300,
+  mobileBannersWidth = 375,
+  mobileBannersHeight = 400,
   placeholders = {
     submitButtonText: "Avançar",
     nome: "Nome",
@@ -85,13 +100,31 @@ function HeroLeadCapture({
                   href={banner.href}
                   target={banner.openInNewTab ? "_blank" : "_self"}
                 >
-                  <Image
-                    src={banner.image!}
+                  <img
+                    src={banner.desktopImage?.image!}
                     alt={banner.alt}
-                    width={765}
-                    height={510}
-                    class="w-full object-cover"
-                    style={{ maxHeight: `${maxBannerHeight}px` }}
+                    width={desktopBannersWidth}
+                    height={desktopBannersHeight}
+                    class="w-full hidden md:block"
+                    style={{
+                      objectFit: banner.desktopImage?.objectFit || "cover",
+                      height: desktopBannersHeight
+                        ? `${desktopBannersHeight}px`
+                        : "",
+                    }}
+                  />
+                  <img
+                    src={banner.mobileImage?.image!}
+                    alt={banner.alt}
+                    width={mobileBannersWidth}
+                    height={mobileBannersHeight}
+                    class="w-full block md:hidden"
+                    style={{
+                      objectFit: banner.mobileImage?.objectFit || "cover",
+                      height: mobileBannersHeight
+                        ? `${mobileBannersHeight}px`
+                        : "",
+                    }}
                   />
                 </a>
               </Slider.Item>

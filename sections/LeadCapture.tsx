@@ -50,7 +50,7 @@ function LeadCapture({
     >
       <h2 class="text-3xl lg:text-5xl leading-tight text-center">{title}</h2>
 
-      <div class="mt-5 md:mt-10 mx-auto">
+      <div class="mt-5 md:mt-10 mx-auto w-full md:w-max">
         <LeadForm
           airtable={airtable}
           successMessage={successMessage}

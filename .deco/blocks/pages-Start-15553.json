@@ -53,12 +53,35 @@
       "maxBannerHeight": 300,
       "banners": [
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/f92c63ab-2d0d-47fa-8137-a5691551508b/banner_teste.png"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/f92c63ab-2d0d-47fa-8137-a5691551508b/banner_teste.png",
+          "objectFit": "contain",
+          "desktopImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/445eedd4-e0a1-4160-91ef-d142ab03aec1/banner_teste.png",
+            "objectFit": "cover"
+          },
+          "mobileImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/60458fc0-0e4a-4c51-8a78-bc90a6e00ab9/banner_teste.png",
+            "objectFit": "cover"
+          }
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
+          "desktopImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ad5fdb6a-9d7a-48e5-a3fb-556fb6073f59/banner_teste.png"
+          },
+          "mobileImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/7712e6d2-8d1c-48cb-bdb0-e47d27f63bad/banner_teste.png"
+          }
         }
-      ]
+      ],
+      "bannersWidth": 1440,
+      "bannersHeight": 300,
+      "desktopMaxBannerHeight": 300,
+      "desktopBannersWidth": 1440,
+      "desktopBannersHeight": 300,
+      "mobileBannersWidth": 375,
+      "mobileBannersHeight": 300,
+      "mobileMaxBannerHeight": 0
     },
     {
       "__resolveType": "site/sections/Steps.tsx",
