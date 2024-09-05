@@ -48,7 +48,7 @@
         "telefone": "Telefone",
         "marca": "Marca (Ex. Fiat)",
         "modelo": "Modelo (Ex. Mobi)",
-        "ano": "Ano/Modelo (Ex. 2021)"
+        "ano": "Ano/Mod (Ex. 2021)"
       },
       "maxBannerHeight": 300,
       "banners": [
@@ -64,6 +64,14 @@
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/68cb15f3-e6e7-401b-93a1-72b1eac018f2/BANNER_2.png",
             "objectFit": "fill"
           }
+        },
+        {
+          "desktopImage": {
+            "objectFit": "cover"
+          },
+          "mobileImage": {
+            "objectFit": "cover"
+          }
         }
       ],
       "bannersWidth": 1440,
@@ -74,7 +82,8 @@
       "mobileBannersWidth": 375,
       "mobileBannersHeight": 300,
       "mobileMaxBannerHeight": 0,
-      "infiniteBanners": true
+      "infiniteBanners": true,
+      "interval": 8
     },
     {
       "__resolveType": "site/sections/Steps.tsx",
