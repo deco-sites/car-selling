@@ -42,7 +42,7 @@
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
       "bannerImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
       "placeholders": {
-        "submitButtonText": "Avançar",
+        "submitButtonText": "Avaliar Agora",
         "nome": "Nome",
         "email": "E-mail",
         "telefone": "Telefone",
@@ -201,7 +201,7 @@
     },
     {
       "__resolveType": "site/sections/LeadCapture.tsx",
-      "title": "Preencha seus dados para fazer uma cotação",
+      "title": "Preencha seus dados para receber uma avaliação",
       "airtable": {
         "baseId": "appmytr6iN5R2eXSb",
         "tableId": "tblrEoGJE8eurMhF0",
