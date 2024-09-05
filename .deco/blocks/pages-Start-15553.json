@@ -33,7 +33,7 @@
     {
       "__resolveType": "site/sections/HeroLeadCapture.tsx",
       "title": "O melhor lugar para vender o seu carro",
-      "description": "Somos uma empresa que compra seu carro em até 24 horas. O pagamento é sempre à vista!",
+      "description": "Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
       "airtable": {
         "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e",
         "baseId": "appmytr6iN5R2eXSb",
@@ -117,19 +117,19 @@
     },
     {
       "__resolveType": "site/sections/OurDifferences.tsx",
-      "title": "Nossos diferenciais",
+      "title": "Escolha a melhor opção",
       "cards": [
         {
-          "label": "Avaliação com preço justo",
-          "text": "Nossas ofertas variam de acordo com o mercado, a consulta de interessados e as características do veículo, tais como: ano, modelo, quilometragem, equipamentos, estado de conservação, entre outros itens analisados na avaliação."
+          "label": "VENDA IMEDIATA",
+          "text": "Precisando de dinheiro rápido? Compramos seu veículo e pagamos à vista na hora. Sem complicações, sem espera. Fácil, rápido e garantido!"
         },
         {
-          "label": "Processo sem burocracia",
-          "text": "Cuidamos de todos os detalhes para você. Nossa equipe fica responsável por: transferência de propriedade, comunicação de venda, documento de ATPVE, etc."
+          "label": "TROCO NA TROCA",
+          "text": "Quer trocar seu veículo? Na GarageCar, você pode sair de carro novo, seja ele de maior ou menor valor! Se o novo for mais caro, negociamos a diferença. Se for mais barato, você recebe o troco em dinheiro na hora. Simples, rápido e vantajoso!"
         },
         {
-          "label": "Nós vamos até você",
-          "text": "A avaliação do veículo normalmente é realizada em nossa loja. Mas se você está sem tempo, nós vamos até você para realizar a avaliação técnica no seu veículo, seguindo todos os protocolos de segurança durante a pandemia."
+          "label": "CONSIGNAÇÃO",
+          "text": "Deixe seu veículo conosco e cuidamos de tudo. Anunciamos nos maiores portais e repassamos todas as propostas. Quando o carro for vendido, você recebe o valor à vista, sem complicações. Mais segurança e máximo retorno para você!"
         }
       ]
     },
