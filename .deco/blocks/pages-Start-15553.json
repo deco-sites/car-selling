@@ -221,6 +221,12 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Analytics/Analytics.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
