@@ -56,6 +56,9 @@
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png",
           "desktopImage": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/5bbf8bc0-8739-4edc-8675-8833faec1c12/BANNER_1.png"
+          },
+          "mobileImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/36eb42e2-ad56-485e-b928-80fca4dcc9f7/BANNER_1M.png"
           }
         },
         {
@@ -63,14 +66,9 @@
           "desktopImage": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/68cb15f3-e6e7-401b-93a1-72b1eac018f2/BANNER_2.png",
             "objectFit": "fill"
-          }
-        },
-        {
-          "desktopImage": {
-            "objectFit": "cover"
           },
           "mobileImage": {
-            "objectFit": "cover"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/1d94105e-5be8-40d5-af3b-3545a3a238fd/BANNER_2M.png"
           }
         }
       ],
@@ -82,7 +80,7 @@
       "mobileBannersWidth": 375,
       "mobileBannersHeight": 300,
       "mobileMaxBannerHeight": 0,
-      "infiniteBanners": true,
+      "infiniteBanners": false,
       "interval": 8
     },
     {
