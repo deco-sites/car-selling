@@ -53,10 +53,17 @@
       "maxBannerHeight": 300,
       "banners": [
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png",
+          "desktopImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/5bbf8bc0-8739-4edc-8675-8833faec1c12/BANNER_1.png"
+          }
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/0ee11b56-6fe9-4cc9-bf4e-3d9219e88158/BANNER_2.png"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/0ee11b56-6fe9-4cc9-bf4e-3d9219e88158/BANNER_2.png",
+          "desktopImage": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/68cb15f3-e6e7-401b-93a1-72b1eac018f2/BANNER_2.png",
+            "objectFit": "fill"
+          }
         }
       ],
       "bannersWidth": 1440,
