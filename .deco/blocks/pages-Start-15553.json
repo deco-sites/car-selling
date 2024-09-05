@@ -73,7 +73,8 @@
       "desktopBannersHeight": 300,
       "mobileBannersWidth": 375,
       "mobileBannersHeight": 300,
-      "mobileMaxBannerHeight": 0
+      "mobileMaxBannerHeight": 0,
+      "infiniteBanners": true
     },
     {
       "__resolveType": "site/sections/Steps.tsx",
