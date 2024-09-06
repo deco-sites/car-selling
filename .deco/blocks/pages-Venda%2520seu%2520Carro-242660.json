@@ -36,8 +36,8 @@
       "description": "Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
       "airtable": {
         "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e",
-        "baseId": "appmytr6iN5R2eXSb",
-        "tableId": "tblrEoGJE8eurMhF0"
+        "baseId": "appV3Crbm9IGFItCT",
+        "tableId": "tblBcySEG6YdC24ab"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
       "bannerImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
@@ -203,8 +203,8 @@
       "__resolveType": "site/sections/LeadCapture.tsx",
       "title": "Preencha seus dados para receber uma avaliação",
       "airtable": {
-        "baseId": "appmytr6iN5R2eXSb",
-        "tableId": "tblrEoGJE8eurMhF0",
+        "baseId": "appV3Crbm9IGFItCT",
+        "tableId": "tblBcySEG6YdC24ab",
         "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
