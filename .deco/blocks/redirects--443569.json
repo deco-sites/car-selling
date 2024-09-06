@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/",
+    "to": "https://garagecar.net/",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
