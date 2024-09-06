@@ -35,9 +35,9 @@
       "title": "O melhor lugar para vender o seu carro",
       "description": "Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
       "airtable": {
-        "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e",
         "baseId": "appV3Crbm9IGFItCT",
-        "tableId": "tblBcySEG6YdC24ab"
+        "tableId": "tblBcySEG6YdC24ab",
+        "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
       "bannerImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
@@ -205,7 +205,7 @@
       "airtable": {
         "baseId": "appV3Crbm9IGFItCT",
         "tableId": "tblBcySEG6YdC24ab",
-        "authToken": "patGM5HtWrXA4GpTQ.4db13d623909a35bb597baf1ce10ca28a43aab5a32f6b15c7778ab60e84a0e1e"
+        "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
       "sectionId": "contato",
