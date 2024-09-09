@@ -1,8 +1,6 @@
 {
   "redirect": {
-    "from": "https://www.garagecarveiculos.com.br",
-    "to": "https://www.garagecarveiculos.com.br/vender",
-    "type": "permanent"
+    "__resolveType": "redirects--443569"
   },
   "__resolveType": "website/loaders/redirect.ts"
 }
