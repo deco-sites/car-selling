@@ -1,7 +1,7 @@
 {
   "redirect": {
     "from": "/",
-    "to": "https://garagecar.net/",
+    "to": "https://www.garagecarveiculos.com.br/",
     "type": "permanent"
   },
   "__resolveType": "website/loaders/redirect.ts"
