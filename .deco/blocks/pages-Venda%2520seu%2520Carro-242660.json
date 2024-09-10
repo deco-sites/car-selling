@@ -3,16 +3,6 @@
   "path": "/vender",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx",
-        "trackingIds": [
-          "GTM-TLPN44XT"
-        ],
-        "disableAutomaticEventPush": false
-      }
-    },
-    {
       "__resolveType": "site/sections/Header.tsx",
       "logo": {
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12381/b867dd6e-e585-42f9-be4e-d7c489e31976",
@@ -212,13 +202,13 @@
     {
       "__resolveType": "site/sections/LeadCapture.tsx",
       "title": "Preencha seus dados para receber uma avaliação",
+      "sectionId": "contato",
       "airtable": {
         "baseId": "appV3Crbm9IGFItCT",
         "tableId": "tblBcySEG6YdC24ab",
         "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
-      "sectionId": "contato",
       "placeholders": {
         "submitButtonText": "Enviar",
         "nome": "Nome",
