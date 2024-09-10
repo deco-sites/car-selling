@@ -228,7 +228,8 @@
         "__resolveType": "website/sections/Analytics/Analytics.tsx",
         "trackingIds": [
           "GTM-TLPN44XT"
-        ]
+        ],
+        "disableAutomaticEventPush": true
       }
     }
   ],
