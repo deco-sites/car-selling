@@ -225,7 +225,10 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx"
+        "__resolveType": "website/sections/Analytics/Analytics.tsx",
+        "trackingIds": [
+          "GTM-TLPN44XT"
+        ]
       }
     }
   ],
