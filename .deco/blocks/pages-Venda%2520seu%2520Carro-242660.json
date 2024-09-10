@@ -62,23 +62,13 @@
           }
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/0ee11b56-6fe9-4cc9-bf4e-3d9219e88158/BANNER_2.png",
           "desktopImage": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/68cb15f3-e6e7-401b-93a1-72b1eac018f2/BANNER_2.png",
-            "objectFit": "fill"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/13cadcab-67a0-4148-af79-c3bfc4f2fa2f/banner1.png",
+            "objectFit": "cover"
           },
           "mobileImage": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/1d94105e-5be8-40d5-af3b-3545a3a238fd/BANNER_2M.png"
-          }
-        },
-        {
-          "desktopImage": {
-            "objectFit": "cover",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/13cadcab-67a0-4148-af79-c3bfc4f2fa2f/banner1.png"
-          },
-          "mobileImage": {
-            "objectFit": "cover",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/c17e66fc-c5ec-408f-add6-4bcb434393c1/banner2.png"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/c17e66fc-c5ec-408f-add6-4bcb434393c1/banner2.png",
+            "objectFit": "cover"
           }
         }
       ],
