@@ -9,7 +9,7 @@
         "trackingIds": [
           "GTM-TLPN44XT"
         ],
-        "disableAutomaticEventPush": true
+        "disableAutomaticEventPush": false
       }
     },
     {
