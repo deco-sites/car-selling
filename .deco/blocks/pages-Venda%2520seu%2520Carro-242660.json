@@ -223,13 +223,10 @@
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx",
-        "trackingIds": [
-          "GTM-TLPN44XT"
-        ]
-      }
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        "GTM-TLPN44XT"
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
