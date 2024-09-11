@@ -8,29 +8,27 @@ import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/FAQ.tsx";
 import * as $$$$$$1 from "./sections/Footer.tsx";
-import * as $$$$$$2 from "./sections/GlobalTags.tsx";
-import * as $$$$$$3 from "./sections/Header.tsx";
-import * as $$$$$$4 from "./sections/HeroLeadCapture.tsx";
-import * as $$$$$$5 from "./sections/ItWorks.tsx";
-import * as $$$$$$6 from "./sections/LeadCapture.tsx";
-import * as $$$$$$7 from "./sections/Maps.tsx";
-import * as $$$$$$8 from "./sections/OurDifferences.tsx";
-import * as $$$$$$9 from "./sections/Steps.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/Header.tsx";
+import * as $$$$$$3 from "./sections/HeroLeadCapture.tsx";
+import * as $$$$$$4 from "./sections/ItWorks.tsx";
+import * as $$$$$$5 from "./sections/LeadCapture.tsx";
+import * as $$$$$$6 from "./sections/Maps.tsx";
+import * as $$$$$$7 from "./sections/OurDifferences.tsx";
+import * as $$$$$$8 from "./sections/Steps.tsx";
+import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/FAQ.tsx": $$$$$$0,
     "site/sections/Footer.tsx": $$$$$$1,
-    "site/sections/GlobalTags.tsx": $$$$$$2,
-    "site/sections/Header.tsx": $$$$$$3,
-    "site/sections/HeroLeadCapture.tsx": $$$$$$4,
-    "site/sections/ItWorks.tsx": $$$$$$5,
-    "site/sections/LeadCapture.tsx": $$$$$$6,
-    "site/sections/Maps.tsx": $$$$$$7,
-    "site/sections/OurDifferences.tsx": $$$$$$8,
-    "site/sections/Steps.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
+    "site/sections/Header.tsx": $$$$$$2,
+    "site/sections/HeroLeadCapture.tsx": $$$$$$3,
+    "site/sections/ItWorks.tsx": $$$$$$4,
+    "site/sections/LeadCapture.tsx": $$$$$$5,
+    "site/sections/Maps.tsx": $$$$$$6,
+    "site/sections/OurDifferences.tsx": $$$$$$7,
+    "site/sections/Steps.tsx": $$$$$$8,
+    "site/sections/Theme/Theme.tsx": $$$$$$9,
   },
   "actions": {
     "site/actions/createAirtableRecord.ts": $$$$$$$$$0,
