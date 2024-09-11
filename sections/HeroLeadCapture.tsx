@@ -20,6 +20,8 @@ export interface Placeholders {
   modelo: string;
   /** @description Campo de ano */
   ano: string;
+  /** @description Campo de KM Atual */
+  kmAtual: string;
 }
 
 export interface BannerMedia {
@@ -79,6 +81,7 @@ function HeroLeadCapture({
     marca: "Marca",
     modelo: "Modelo",
     ano: "Ano",
+    kmAtual: "KM Atual",
   },
   infiniteBanners = false,
   interval,

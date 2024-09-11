@@ -16,6 +16,8 @@ export interface Placeholders {
   modelo: string;
   /** @description Campo de ano */
   ano: string;
+  /** @description Campo de KM Atual */
+  kmAtual: string;
 }
 
 export interface Props {
@@ -41,6 +43,7 @@ function LeadCapture({
     marca: "Marca",
     modelo: "Modelo",
     ano: "Ano",
+    kmAtual: "KM Atual",
   },
 }: Props) {
   return (
@@ -50,7 +53,7 @@ function LeadCapture({
     >
       <h2 class="text-3xl lg:text-5xl leading-tight text-center">{title}</h2>
 
-      <div class="mt-5 md:mt-10 mx-auto w-full md:w-max">
+      <div class="mt-5 md:mt-10 mx-auto w-full md:w-max md:min-w-[500px]">
         <LeadForm
           airtable={airtable}
           successMessage={successMessage}

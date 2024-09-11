@@ -11,6 +11,7 @@ interface Placeholders {
   marca: string;
   modelo: string;
   ano: string;
+  kmAtual: string;
 }
 
 interface Props {
@@ -40,6 +41,7 @@ export default function LeadForm({
       const marca = formData.get("marca") as string;
       const modelo = formData.get("modelo") as string;
       const ano = formData.get("ano") as string;
+      const kmAtual = formData.get("kmAtual") as string;
 
       await invoke["site"].actions.createAirtableRecord({
         airtable,
@@ -49,6 +51,7 @@ export default function LeadForm({
         marca,
         modelo,
         ano,
+        kmAtual,
       });
 
       success.value = true;
@@ -134,13 +137,20 @@ export default function LeadForm({
           class="input input-bordered w-full text-sm"
           name="modelo"
         />
+      </div>
+      <div class="flex flex-col md:flex-row gap-2">
         <input
           placeholder={placeholders?.ano}
           class="input input-bordered w-full text-sm"
           name="ano"
         />
+        <input
+          placeholder={placeholders?.kmAtual}
+          class="input input-bordered w-full text-sm"
+          name="kmAtual"
+          type="number"
+        />
       </div>
-
       <button
         type="submit"
         disabled={loading.value}

@@ -8,6 +8,7 @@ export interface Props {
   marca?: string;
   modelo?: string;
   ano?: string;
+  kmAtual?: string;
   airtable?: Airtable;
 }
 
@@ -19,6 +20,7 @@ export const action = async (props: Props, _req: Request, ctx: AppContext) => {
     Marca: props.marca,
     Modelo: props.modelo,
     Ano: props.ano,
+    KmAtual: props.kmAtual,
   };
 
   const apiUrl = `https://api.airtable.com/v0/${props.airtable?.baseId}/${props.airtable?.tableId}`;

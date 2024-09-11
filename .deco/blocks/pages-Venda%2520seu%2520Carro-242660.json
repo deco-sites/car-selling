@@ -48,7 +48,8 @@
         "telefone": "Telefone",
         "marca": "Marca (Ex. Fiat)",
         "modelo": "Modelo (Ex. Mobi)",
-        "ano": "Ano/Mod (Ex. 2021)"
+        "ano": "Ano/Mod (Ex. 2021)",
+        "kmAtual": "KM Atual (Ex. 2000Km)"
       },
       "maxBannerHeight": 300,
       "banners": [
@@ -216,7 +217,8 @@
         "telefone": "Telefone",
         "marca": "Marca (Ex. Fiat)",
         "modelo": "Modelo (Ex. Mobi)",
-        "ano": "Ano/Mod (Ex. 2021)"
+        "ano": "Ano/Mod (Ex. 2021)",
+        "kmAtual": "KM Atual (Ex. 2000Km)"
       }
     },
     {
