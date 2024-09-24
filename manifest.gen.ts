@@ -16,6 +16,7 @@ import * as $$$$$$6 from "./sections/Maps.tsx";
 import * as $$$$$$7 from "./sections/OurDifferences.tsx";
 import * as $$$$$$8 from "./sections/Steps.tsx";
 import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$10 from "./sections/video.tsx";
 
 const manifest = {
   "sections": {
@@ -29,6 +30,7 @@ const manifest = {
     "site/sections/OurDifferences.tsx": $$$$$$7,
     "site/sections/Steps.tsx": $$$$$$8,
     "site/sections/Theme/Theme.tsx": $$$$$$9,
+    "site/sections/video.tsx": $$$$$$10,
   },
   "actions": {
     "site/actions/createAirtableRecord.ts": $$$$$$$$$0,

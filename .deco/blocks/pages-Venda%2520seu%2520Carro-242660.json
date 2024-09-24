@@ -75,6 +75,15 @@
       "interval": 8
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/video.tsx",
+        "title": "<pre><code>Venda seu carro em 30 minutos</code></pre>",
+        "description": "teste",
+        "videoUrl": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/2435f29e-1b5e-4a6b-99e8-4ed939b58132/202409191156.mp4"
+      }
+    },
+    {
       "__resolveType": "site/sections/Steps.tsx",
       "title": "Quer vender o seu carro?",
       "description": "Aqui o processo é prático, transparente e seguro! A compra acontece em poucos passos:",
