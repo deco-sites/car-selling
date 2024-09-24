@@ -26,7 +26,7 @@ export default function YouTubeVideoSection({
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center" dangerouslySetInnerHTML={{ __html: title }}></h2>
       <div className="relative w-full mb-6" style={{ paddingBottom: "56.25%" }}>
         <div className="absolute top-0 left-0 w-full h-full">
           <iframe
