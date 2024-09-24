@@ -1,5 +1,7 @@
 {
   "__resolveType": "site/sections/video.tsx",
   "width": 560,
-  "height": 315
+  "height": 315,
+  "marginTop": 40,
+  "marginBottom": 24
 }

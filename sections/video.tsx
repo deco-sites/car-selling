@@ -25,6 +25,16 @@ interface Props {
    * @default 315
    */
   height?: number;
+  /**
+   * @description Margin top of the section in pixels
+   * @default 40
+   */
+  marginTop?: number;
+  /**
+   * @description Margin bottom of the section in pixels
+   * @default 24
+   */
+  marginBottom?: number;
 }
 
 export default function YouTubeVideoSection({
@@ -32,12 +42,14 @@ export default function YouTubeVideoSection({
   title = "Check out our latest video",
   description = "This video showcases our product in action. Watch and learn more about what we offer!",
   width = 560,
-  height = 315
+  height = 315,
+  marginTop = 40,
+  marginBottom = 24
 }: Props) {
   const embedUrl = videoUrl.replace("watch?v=", "embed/");
 
   return (
-    <div className="container mx-auto px-4 pt-10 pb-6">
+    <div className="container mx-auto px-4" style={{ marginTop: `${marginTop}px`, marginBottom: `${marginBottom}px` }}>
       <h2 className="text-3xl font-bold mb-8 text-center" dangerouslySetInnerHTML={{ __html: title }}></h2>
       <div className="relative w-full mb-6" style={{ paddingBottom: `${(height / width) * 100}%` }}>
         <div className="absolute top-0 left-0 w-full h-full">
