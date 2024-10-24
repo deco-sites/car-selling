@@ -137,6 +137,12 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/google-review.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/FAQ.tsx",
       "title": "Ainda tem dúvidas?",
       "questions": [
@@ -231,12 +237,6 @@
       "trackingIds": [
         "GTM-KWMVD27W"
       ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/google-review.tsx"
-      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

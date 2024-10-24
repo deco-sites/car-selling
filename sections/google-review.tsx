@@ -1,5 +1,13 @@
 import { ImageWidget } from 'apps/admin/widgets.ts';
 
+/**
+ * @format color-input
+ */
+type ColorWidget = string;
+
+/**
+ * @format color-input
+ */
 interface Review {
   name: string;
   date: string;
@@ -34,6 +42,16 @@ interface Props {
    * @description Total number of reviews
    */
   totalReviews?: number;
+  /**
+   * @description Background color of the section
+   * @format color-input
+   */
+  backgroundColor?: ColorWidget;
+  /**
+   * @description Background color of the button
+   * @format color-input
+   */
+  buttonBackgroundColor?: ColorWidget;
 }
 
 export default function TestimonialSection({
@@ -65,10 +83,12 @@ export default function TestimonialSection({
   allReviewsLink = "https://www.google.com/business",
   buttonText = "View All Reviews on Google",
   overallRating = 4.9,
-  totalReviews = 39
+  totalReviews = 39,
+  backgroundColor = "#f3f4f6",
+  buttonBackgroundColor = "#2563eb"
 }: Props) {
   return (
-    <section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <section class="py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor }}>
       <div class="max-w-7xl mx-auto">
         <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-2">{title}</h2>
         <p class="text-xl text-gray-500 text-center mb-8">{subtitle}</p>
@@ -122,7 +142,7 @@ export default function TestimonialSection({
             href={allReviewsLink}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+            class="inline-block text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition duration-300" style={{ backgroundColor: buttonBackgroundColor }}
           >
             {buttonText}
           </a>
