@@ -141,8 +141,9 @@
       "section": {
         "__resolveType": "site/sections/google-review.tsx",
         "backgroundColor": "#ffffff",
-        "title": "<p>teste</p>",
-        "subtitle": "teste"
+        "title": "<p>Avaliações reais, experiências reais\"</p>",
+        "subtitle": "teste",
+        "showButton": false
       }
     },
     {

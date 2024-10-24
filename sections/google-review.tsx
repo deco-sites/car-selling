@@ -92,11 +92,14 @@ export default function TestimonialSection({
   backgroundColor = "#f3f4f6",
   buttonBackgroundColor = "#2563eb"
 }: Props) {
+
+  const removeHtmlTags = (str: string) => str.replace(/<\/?[^>]+(>|$)/g, "");
+
   return (
     <section class="py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor }}>
       <div class="max-w-7xl mx-auto">
         <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-2">{title}</h2>
-        <p class="text-xl text-gray-500 text-center mb-8">{subtitle}</p>
+        <p class="text-xl text-gray-500 text-center mb-8" dangerouslySetInnerHTML={{ __html: removeHtmlTags(subtitle) }}></p>
         
         <div class="flex flex-wrap justify-center items-center mb-8">
           <div class="flex items-center">
@@ -137,7 +140,7 @@ export default function TestimonialSection({
                   </svg>
                 ))}
               </div>
-              <p class="text-gray-700 whitespace-pre-wrap">{review.comment}</p>
+              <p class="text-gray-700 whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: removeHtmlTags(review.comment) }}></p>
             </div>
           ))}
         </div>
