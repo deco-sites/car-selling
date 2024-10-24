@@ -231,6 +231,12 @@
       "trackingIds": [
         "GTM-KWMVD27W"
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/google-review.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
