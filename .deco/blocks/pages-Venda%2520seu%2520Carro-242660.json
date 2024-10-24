@@ -141,9 +141,34 @@
       "section": {
         "__resolveType": "site/sections/google-review.tsx",
         "backgroundColor": "#ffffff",
-        "title": "<p>Avaliações reais, experiências reais\"</p>",
-        "subtitle": "teste",
-        "showButton": false
+        "title": "<p>Nossas Avaliações no Google</p>",
+        "subtitle": "Opiniões sinceras que nos ajudam a melhorar a cada dia.",
+        "showButton": false,
+        "reviews": [
+          {
+            "name": "Patrick Tattoo",
+            "comment": "Tive uma experiência muito boa, vendedor honesto e prestativo, fui para comprar um carro e acabei ficando com outro, porque o vendedor soube conduzir a venda e entender o que eu estava procurando! O pós venda tbm está sendo muito bom, recomendo 💪🏼💪🏼💪🏼",
+            "rating": 5,
+            "date": "17/10/2024",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/54cb408d-f58c-4c56-8282-8dfe985da36f/unnamed-(1).png"
+          },
+          {
+            "name": "Horiane Bloedorn",
+            "rating": 5,
+            "comment": "Revenda séria, atenciosa, transparente em todo o processo de negociação, Equipe rápida nas respostas e sempre disposta a auxiliar em tudo. Veículos revisados com Laudo Cautelar que gera maior confiança na hora da compra. Super recomento, nota 10",
+            "date": "01/10/2024",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/3249fde9-7345-4970-890a-bba6298e9510/unnamed-(2).png"
+          },
+          {
+            "name": "Berg Souza",
+            "date": "20/07/2024",
+            "rating": 5,
+            "comment": "Eu não poderia estar mais satisfeito. O carro que comprei a uns 6 meses atrás estava em perfeito estado, tanto mecânica quanto esteticamente.Gostei tbm do atendimento tornando o processo bem mais rápido!! A experiência do primeiro carro foi excelente.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/aaf19e13-3b67-44e9-8577-7c54f397e075/unnamed-(3).png"
+          }
+        ],
+        "overallRating": 4.9,
+        "totalReviews": 130
       }
     },
     {
