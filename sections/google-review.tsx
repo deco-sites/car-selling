@@ -98,7 +98,7 @@ export default function TestimonialSection({
         <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-2">{title}</h2>
         <p class="text-xl text-gray-500 text-center mb-8">{subtitle}</p>
         
-        <div class="flex justify-center items-center mb-8">
+        <div class="flex flex-wrap justify-center items-center mb-8">
           <div class="flex items-center">
             {[...Array(5)].map((_, i) => (
               <svg
@@ -111,8 +111,8 @@ export default function TestimonialSection({
               </svg>
             ))}
           </div>
-          <span class="ml-3 text-4xl font-bold text-gray-900">{overallRating}</span>
-          <span class="ml-2 text-lg text-gray-600">rating of {totalReviews} reviews</span>
+          <span class="ml-3 text-4xl font-bold text-gray-900">{overallRating.toFixed(1)}</span>
+          <span class="ml-2 text-lg text-gray-600">based on {totalReviews} reviews</span>
         </div>
         
         <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -137,7 +137,7 @@ export default function TestimonialSection({
                   </svg>
                 ))}
               </div>
-              <p class="text-gray-700">{review.comment}</p>
+              <p class="text-gray-700 whitespace-pre-wrap">{review.comment}</p>
             </div>
           ))}
         </div>

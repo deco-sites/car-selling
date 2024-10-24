@@ -140,7 +140,9 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/google-review.tsx",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "title": "<p>teste</p>",
+        "subtitle": "teste"
       }
     },
     {
