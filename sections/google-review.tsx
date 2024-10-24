@@ -35,6 +35,10 @@ interface Props {
    */
   buttonText?: string;
   /**
+   * @description Show or hide the "View All Reviews" button
+   */
+  showButton?: boolean;
+  /**
    * @description Overall rating score
    */
   overallRating?: number;
@@ -82,6 +86,7 @@ export default function TestimonialSection({
   ],
   allReviewsLink = "https://www.google.com/business",
   buttonText = "View All Reviews on Google",
+  showButton = true,
   overallRating = 4.9,
   totalReviews = 39,
   backgroundColor = "#f3f4f6",
@@ -137,16 +142,18 @@ export default function TestimonialSection({
           ))}
         </div>
         
-        <div class="mt-12 text-center">
-          <a
-            href={allReviewsLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-block text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition duration-300" style={{ backgroundColor: buttonBackgroundColor }}
-          >
-            {buttonText}
-          </a>
-        </div>
+        {showButton && (
+          <div class="mt-12 text-center">
+            <a
+              href={allReviewsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition duration-300" style={{ backgroundColor: buttonBackgroundColor }}
+            >
+              {buttonText}
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
