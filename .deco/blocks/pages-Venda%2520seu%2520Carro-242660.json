@@ -139,7 +139,8 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/google-review.tsx"
+        "__resolveType": "site/sections/google-review.tsx",
+        "backgroundColor": "#ffffff"
       }
     },
     {
