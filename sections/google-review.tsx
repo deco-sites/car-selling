@@ -98,7 +98,7 @@ export default function TestimonialSection({
   return (
     <section class="py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor }}>
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-2">{title}</h2>
+        <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-2" dangerouslySetInnerHTML={{ __html: removeHtmlTags(title) }}></h2>
         <p class="text-xl text-gray-500 text-center mb-8" dangerouslySetInnerHTML={{ __html: removeHtmlTags(subtitle) }}></p>
         
         <div class="flex flex-wrap justify-center items-center mb-8">
