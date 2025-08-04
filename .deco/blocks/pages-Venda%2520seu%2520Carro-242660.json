@@ -56,10 +56,11 @@
         {
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png",
           "desktopImage": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/38972739-7099-4de3-935e-f1a6e2a429ee/bannerGarageCar-MelhorLugar-20240917-1440x300.jpg"
+            "image": "https://assets.decocache.com/car-selling/6c264610-b5cd-4437-af68-36d4bdb76c7c/postGarageCar-QuerVenderSeuCarro-20250730--1440300.jpg"
           },
           "mobileImage": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/5d043a7c-50b2-4d61-986a-f98340dcafc1/bannerGarageCar-MelhorLugar-20240917-375x300.jpg"
+            "image": "https://assets.decocache.com/car-selling/02b84caa-3905-462e-8c4d-7535c07e1753/postGarageCar-QuerVenderSeuCarro-20250730-375300.jpg",
+            "objectFit": "fill"
           }
         }
       ],
