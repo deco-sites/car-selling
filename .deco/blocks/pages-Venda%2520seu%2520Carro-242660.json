@@ -33,7 +33,7 @@
     {
       "__resolveType": "site/sections/HeroLeadCapture.tsx",
       "title": "O melhor lugar para vender o seu carro",
-      "description": "Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
+      "description": "Compramos seu carro em até 30 minutos, pagamento à vista. Preferimos veículos a partir de 2016 e com média de até 15.000 km/ano. Seu carro é mais antigo, mas está impecável? Sem problema, preencha o formulário e avaliaremos do mesmo jeito.",
       "airtable": {
         "baseId": "appV3Crbm9IGFItCT",
         "tableId": "tblBcySEG6YdC24ab",
