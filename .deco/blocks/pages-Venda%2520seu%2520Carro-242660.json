@@ -33,7 +33,7 @@
     {
       "__resolveType": "site/sections/HeroLeadCapture.tsx",
       "title": "O melhor lugar para vender o seu carro",
-      "description": "Compramos seu carro em até 30 minutos, pagamento à vista. Preferimos veículos a partir de 2015 e com média de até 15.000 km/ano. Seu carro é mais antigo, mas está impecável? Sem problema, preencha o formulário e avaliaremos do mesmo jeito.",
+      "description": "Compramos seu carro no mesmo dia, pagamento à vista. Preferimos veículos a partir de 2015 e com média de até 15.000 km/ano. Seu carro é mais antigo, mas está impecável? Sem problema, preencha o formulário e avaliaremos do mesmo jeito.",
       "airtable": {
         "baseId": "appV3Crbm9IGFItCT",
         "tableId": "tblBcySEG6YdC24ab",
@@ -177,8 +177,12 @@
       "title": "Ainda tem dúvidas?",
       "questions": [
         {
-          "content": "Sim, fazemos uma avaliação prévia do seu veículo e, na sequência, combinamos se a avaliação presencial acontecerá em nossa loja ou no seu endereço (dentro da região metropolitana).",
-          "label": "Não estou em Porto Alegre, posso vender para a GarageCar?"
+          "content": "Damos preferência para veículos a partir de 2015 e com média de até 15.000 km rodados por ano. Porém, se o seu carro for mais antigo e estiver em ótimas condições, também podemos avaliá-lo. Basta preencher o formulário que nossa equipe entra em contato para analisar seu caso.",
+          "label": "Que ano de carros vocês compram?"
+        },
+        {
+          "label": "Não estou em Porto Alegre, posso vender para a GarageCar?",
+          "content": "Sim, fazemos uma avaliação prévia do seu veículo e, na sequência, combinamos se a avaliação presencial acontecerá em nossa loja ou no seu endereço (dentro da região metropolitana)."
         },
         {
           "label": "Posso vender qualquer tipo de carro?",
