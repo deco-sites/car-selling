@@ -5,7 +5,7 @@
     {
       "__resolveType": "site/sections/Header.tsx",
       "logo": {
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12381/b867dd6e-e585-42f9-be4e-d7c489e31976",
+        "image": "https://decoims.com/car-selling/0c64b8c5-acc8-4896-abc0-d4374d9e6c10/bb9ff8916be48960.webp",
         "alt": "Garagecar Veículos",
         "width": 116,
         "height": 116
@@ -40,7 +40,7 @@
         "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
       },
       "successMessage": "Sucesso! Nossa equipe entrará em contato.",
-      "bannerImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
+      "bannerImage": "https://decoims.com/car-selling/b67251ae-77aa-48a2-a6d4-f31ee261c57f/63cfcea5ef2c226c.webp",
       "placeholders": {
         "submitButtonText": "Avaliar Agora",
         "nome": "Nome",
@@ -54,7 +54,7 @@
       "maxBannerHeight": 300,
       "banners": [
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png",
+          "image": "https://decoims.com/car-selling/4db1a700-8f9a-4128-9de3-c837c8ebaf14/8c98b1339c71c87d.png",
           "desktopImage": {
             "image": "https://assets.decocache.com/car-selling/6c264610-b5cd-4437-af68-36d4bdb76c7c/postGarageCar-QuerVenderSeuCarro-20250730--1440300.jpg"
           },
@@ -94,22 +94,22 @@
       "steps": [
         {
           "label": "Whatsapp",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/dd23dc15-7cdd-481f-9641-43e1189c1dba/icone-2.png",
+          "icon": "https://decoims.com/car-selling/ea9e8268-c27e-46d3-936f-a42a190b00d2/c2f3dffa33a3d80b.png",
           "text": "Preencha o Formulário com os seus melhores contatos"
         },
         {
           "label": "Avaliação Técnica",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/76595e21-f3c2-4bdf-8994-b93047a5ac5a/icone-1.png",
+          "icon": "https://decoims.com/car-selling/f3dbb660-dea7-4b73-b771-d952cf580e6c/c0acf6e89341ced4.png",
           "text": "Agende uma avaliação técnica em nossa loja ou no seu endereço"
         },
         {
           "label": "Formalização",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/a7aadb3e-63ed-473f-ac41-def75e71e5c3/icone-3.png",
+          "icon": "https://decoims.com/car-selling/5c383fdf-90d6-4e2b-982b-f333625ba5aa/0b45a72d54be2813.png",
           "text": "Realize a formalização dos documentos em cartório"
         },
         {
           "label": "Pagamento",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/bdd73cd4-cf28-4ab3-b145-ff8e3ccd6eb9/icone-4.png",
+          "icon": "https://decoims.com/car-selling/47f6b39d-183c-4fc2-b0c4-666dec1546f5/277c08f7eb71e4e7.png",
           "text": "Receba o pagamento de forma segura em sua conta"
         }
       ],
@@ -233,11 +233,11 @@
           "alt": "GarageCar Unidade Porto Alegre"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/9725f76f-b1be-473f-addf-08915e9f0f63/186b5307-7382-4c34-b916-db55413ad07c.jpg",
+          "image": "https://decoims.com/car-selling/163403b7-fda8-48e6-8b9e-c091534b8121/4c6296a4e7939d6e.jpg",
           "alt": "GarageCar Unidade Porto Alegre"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/2bac7a17-a392-4aeb-b64b-5c2900ed2d1a/IMG_1945.jpg",
+          "image": "https://decoims.com/car-selling/0b218e5f-abd6-4fea-a37e-261b4b90c295/900a9d001d9455b3.jpg",
           "alt": "GarageCar Unidade Porto Alegre"
         }
       ]

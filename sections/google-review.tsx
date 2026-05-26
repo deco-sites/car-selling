@@ -67,21 +67,21 @@ export default function TestimonialSection({
       date: "15/04/2021",
       rating: 5,
       comment: "The host was waiting for us and was very polite and helpful. Apartments are amazing!",
-      avatar: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e"
+      avatar: "https://decoims.com/car-selling/ddec5f38-2f2c-481b-97a9-a5c2fcd8dad1/331b997080873d67.png"
     },
     {
       name: "Davis Dokidis",
       date: "15/04/2021",
       rating: 5,
       comment: "Nice apartments, friendly host and a quiet environment. Approx 4.3 km outside the center located. 700 m away from a mall.We were extremely satisfied with everything, will definitely come again.",
-      avatar: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e"
+      avatar: "https://decoims.com/car-selling/ddec5f38-2f2c-481b-97a9-a5c2fcd8dad1/331b997080873d67.png"
     },
     {
       name: "Maren Calzoni",
       date: "15/04/2021",
       rating: 5,
       comment: "The places is super clean, everything is new and the beds are super comfortable",
-      avatar: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e"
+      avatar: "https://decoims.com/car-selling/ddec5f38-2f2c-481b-97a9-a5c2fcd8dad1/331b997080873d67.png"
     }
   ],
   allReviewsLink = "https://www.google.com/business",
